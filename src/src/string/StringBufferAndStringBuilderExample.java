@@ -1,4 +1,4 @@
-package String;
+package string;
 
 public class StringBufferAndStringBuilderExample {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class StringBufferAndStringBuilderExample {
         for(int i=0; i<10000; i++){
             buffer.append("World");
         }
+//        System.out.println(buffer);
         System.out.println("Time Taken By StringBuffer: "+ (System.currentTimeMillis() -  startTime));
 
         StringBuilder builder = new StringBuilder("Hello ");
